@@ -14,6 +14,8 @@
 		9074D49D1F758F4300E7B8AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9074D49B1F758F4300E7B8AC /* LaunchScreen.storyboard */; };
 		9074D4A81F758F4300E7B8AC /* YOLOCoreMLGlassesFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9074D4A71F758F4300E7B8AC /* YOLOCoreMLGlassesFinderTests.swift */; };
 		9074D4B31F758F4300E7B8AC /* YOLOCoreMLGlassesFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9074D4B21F758F4300E7B8AC /* YOLOCoreMLGlassesFinderUITests.swift */; };
+		9074D4C81F75959E00E7B8AC /* TinyYOLO.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9074D4C71F75959D00E7B8AC /* TinyYOLO.mlmodel */; };
+		9074D50A1F75F18F00E7B8AC /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9074D5091F75F18F00E7B8AC /* UIImage+CVPixelBuffer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9074D4AE1F758F4300E7B8AC /* YOLOCoreMLGlassesFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YOLOCoreMLGlassesFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9074D4B21F758F4300E7B8AC /* YOLOCoreMLGlassesFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOCoreMLGlassesFinderUITests.swift; sourceTree = "<group>"; };
 		9074D4B41F758F4300E7B8AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9074D4C71F75959D00E7B8AC /* TinyYOLO.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TinyYOLO.mlmodel; sourceTree = "<group>"; };
+		9074D5091F75F18F00E7B8AC /* UIImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		9074D4861F758F4300E7B8AC = {
 			isa = PBXGroup;
 			children = (
+				9074D4C71F75959D00E7B8AC /* TinyYOLO.mlmodel */,
 				9074D4911F758F4300E7B8AC /* YOLOCoreMLGlassesFinder */,
 				9074D4A61F758F4300E7B8AC /* YOLOCoreMLGlassesFinderTests */,
 				9074D4B11F758F4300E7B8AC /* YOLOCoreMLGlassesFinderUITests */,
@@ -103,6 +108,7 @@
 				9074D4991F758F4300E7B8AC /* Assets.xcassets */,
 				9074D49B1F758F4300E7B8AC /* LaunchScreen.storyboard */,
 				9074D49E1F758F4300E7B8AC /* Info.plist */,
+				9074D5091F75F18F00E7B8AC /* UIImage+CVPixelBuffer.swift */,
 			);
 			path = YOLOCoreMLGlassesFinder;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			files = (
 				9074D4951F758F4300E7B8AC /* ViewController.swift in Sources */,
 				9074D4931F758F4300E7B8AC /* AppDelegate.swift in Sources */,
+				9074D4C81F75959E00E7B8AC /* TinyYOLO.mlmodel in Sources */,
+				9074D50A1F75F18F00E7B8AC /* UIImage+CVPixelBuffer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6KTEGLXGH;
 				INFOPLIST_FILE = YOLOCoreMLGlassesFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jackborthwick.YOLOCoreMLGlassesFinder;
@@ -441,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6KTEGLXGH;
 				INFOPLIST_FILE = YOLOCoreMLGlassesFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jackborthwick.YOLOCoreMLGlassesFinder;
